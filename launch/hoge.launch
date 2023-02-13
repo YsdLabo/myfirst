@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="hoge_tf" args="0.5 0 0.5 0 0 0 base_link robot 10"/>
+	<node pkg="hoge" type="hoge" name="hoge" output="screen"/>
+</launch>
